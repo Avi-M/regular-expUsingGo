@@ -15,7 +15,7 @@ func CalculateValue(c chan int) {
 }
 
 func main() {
-	fmt.Println("Go Channel Tutorial")
+	fmt.Println("Go Channel")
 
 	valueChannel := make(chan int, 2)
 	defer close(valueChannel)
